@@ -10,7 +10,8 @@ tn = telnetlib.Telnet(HOST)
 
 tn.read_until(b"Username: ")
 tn.write(user.encode('ascii')+b"\n")
-#NOTE: The b indicates a bytes literal. All those string.encode(“ascii”) calls are converting str to ASCII-encoded bytes so that they can be concatenated with the bytes literal... this is all because ultimately the Telnet protocol expects ASCII-encoded bytes to be transmitted and received.
+#NOTE: The b indicates a bytes literal. All those string.encode(“ascii”) calls are converting str to ASCII-encoded bytes so that they can be concatenated with the bytes literal... 
+#this is all because ultimately the Telnet protocol expects ASCII-encoded bytes to be transmitted and received.
 
 if password:
 	tn.read_until(b"Password: ")
