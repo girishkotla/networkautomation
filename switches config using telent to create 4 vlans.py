@@ -19,7 +19,7 @@ tn.write(b"enable\n")
 tn.write(b"cisco\n")
 tn.write(b"config terminal\n")
 tn.write(b"vlan 10\n")
-tn.write(b"name python_vlan10\n")
+tn.write(b"name python_vlan10\n")	#This is meanual method, using loops is recommended and will see that in the next upcomming codes
 tn.write(b"vlan 20\n")
 tn.write(b"name python_vlan20\n")
 tn.write(b"vlan 30\n")
