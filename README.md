@@ -6,9 +6,10 @@
 
 Here are the **STEPS:** 
 
-1.Give Username and password:
+1. Give Username and password:
 
  SW(config)#username <enter_username> password <enter_pass>
+ 
  
 2. Give enable password // the password that need to be entered while entering enable mode:
 
@@ -24,10 +25,15 @@ SW(config-vlan)# no sh
 
 Sw(config-vlan)#exit
 
+
 4. Open Tenelet to connect remotely:
+
 SW(config)#line vty 0 4
+
 SW(config-line)#login local
+
 SW(config-line)#transport input telnet/ssh/all
+
 
 **Recommendation:** Before directly executing code, check manually whether you are able to connect to the taget deivice using **TELNET.**
 
