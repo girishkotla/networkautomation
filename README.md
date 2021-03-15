@@ -19,7 +19,7 @@ Here are the **STEPS:**
 
 **SW(config)# int vlan 1**
 
-**SW(config-vlan)# ip address <IP_should_be_in_ubuntu_network> <subnet_mask>**   //Enter **#ifconfig** in ubuntu to know the IP of container(ubuntu)
+**SW(config-vlan)# ip address <IP_should_be_in_ubuntu_network> <subnet_mask>**  //Enter **#ifconfig** in ubuntu to know IP
 
 **SW(config-vlan)# no sh**
 
