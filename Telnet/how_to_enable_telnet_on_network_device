@@ -1,0 +1,25 @@
+Here are the STEPS:
+
+Give Username and password:
+SW(config)#username <enter_username> password <enter_pass>
+
+Give enable password // the password that need to be entered while entering enable mode:
+SW(config)# enable password/secret <enter_pass>
+
+GIve an IP address to connect ussing telnet:
+SW(config)# int vlan 1
+
+SW(config-vlan)# ip address <IP_should_be_in_ubuntu_network> <subnet_mask> //Enter #ifconfig in ubuntu to know IP
+
+SW(config-vlan)# no sh
+
+SW(config-vlan)#exit
+
+Open Tenelet to connect remotely:
+SW(config)#line vty 0 4
+
+SW(config-line)#login local
+
+SW(config-line)#transport input telnet/ssh/all
+
+Recommendation: Before directly executing code, check manually whether you are able to connect to the taget deivice using TELNET.
