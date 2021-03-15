@@ -1,6 +1,6 @@
 # Network Automation using PYTHON.
 
-TELNET:
+**TELNET:**
 
 ![image](https://user-images.githubusercontent.com/45974876/111051567-0afa8980-847a-11eb-9cc0-da2daba3bc02.png)
 
