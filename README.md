@@ -3,17 +3,25 @@
 **TELNET:**
 
 **NOTE:** Before automating using Telnet you first need to disable "TELNET" on switches.
+
 Here are the **STEPS:** 
+
 1.Give Username and password:
+
  SW(config)#username <enter_username> password <enter_pass>
  
 2. Give enable password // the password that need to be entered while entering enable mode:
+
 SW(config)# enable password/secret <enter_pass>
 
 3. GIve an IP address to connect ussing telnet:
+
 SW(config)# int vlan 1
+
 SW(config-vlan)# ip address <IP_should_be_in_ubuntu_network> <subnet_mask>   //Enter **#ifconfig** in ubuntu to know the IP of container(ubuntu)
+
 SW(config-vlan)# no sh
+
 Sw(config-vlan)#exit
 
 4. Open Tenelet to connect remotely:
