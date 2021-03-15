@@ -1,0 +1,21 @@
+enable
+!
+config terminal
+!
+!
+username girish password cisco
+enable password cisco
+line vty 0 4
+login local
+transport input ssh
+exit
+!
+!
+!
+ip domain-name devnetpython.com
+crypto key generate rsa
+1025
+!
+!
+end
+write
