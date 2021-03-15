@@ -6,7 +6,8 @@ HOST = "localhost"
 user = input("Enter the telnet username: ")
 password = getpass.getpass()
 
-f = open("switches_list")
+f = open("switches_list")	#Make sure that You have this file in same folder of this code 
+				#Also make sure that file should consist of IP address of the switches to configure. Example is given in the folder, check for clarification
 
 for IP in f:
 	IP = IP.strip()
