@@ -1,0 +1,12 @@
+In real world environment using TELNET is not safe, so SSH is used.
+
+NETMIKO: 
+
+> A multi-vendor library to simplify Paramiko SSH connections to network devices.
+
+> Netmiko is open source
+
+> Full DOC: https://github.com/ktbyers/netmiko
+Examples are shown in the github.
+
+NOTE: if you want to use NETMIKO, make sure target should be enbaled with SSH.
