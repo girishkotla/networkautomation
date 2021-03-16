@@ -1,0 +1,8 @@
+!! Giving vlan 100,200,300 for core switces(sw2,sw3)
+
+vlan 100
+ name core_sales_100
+vlan 200
+ name core_hr_200
+vlan 300
+ name core_support_300
