@@ -1,0 +1,15 @@
+!! Giving vlan 100,200,300 for access switces(sw4,sw5,sw6)
+
+vlan 10
+ name core_sales_10
+vlan 20
+ name core_hr_20
+vlan 30
+ name core_support_30
+vlan 40
+ name core_sales_40
+vlan 50
+ name core_hr_50
+vlan 60
+ name core_support_60
+ 
