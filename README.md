@@ -35,7 +35,7 @@ After running the code when you check on the directory you can find some backup 
 
 0. How to enable SSH, refer: https://github.com/girishkotla/networkautomation/blob/main/Netmiko(SSH)/multiple_switces_multiple_files_config/ssh_config.txt
 
-Recommended suggestion: please check the SSH connection to the target, before automating.
+**Recommended suggestion:** please check the SSH connection to the target(s), before automating.
 
 1. Create loopbacks on a router using Netmiko(SSH): https://github.com/girishkotla/networkautomation/blob/main/Netmiko(SSH)/1_create_loopbacks_on_router.py
 2. Configure multiples devices using for loops and create vlans on switche(s): https://github.com/girishkotla/networkautomation/blob/main/Netmiko(SSH)/2_multiples_devices_with_for_loops_vlans.py
