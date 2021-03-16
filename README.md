@@ -28,7 +28,9 @@ After running the code when you check on the directory you can find some backup 
 
 
 **NETMIKO(SSH):**
-Network Design:
+
+**Network Design:**
+
 ![image](https://user-images.githubusercontent.com/45974876/111310493-271d4700-8683-11eb-8fd5-d3ef5766bfdf.png)
 
 0. How to enable SSH, refer: https://github.com/girishkotla/networkautomation/blob/main/Netmiko(SSH)/multiple_switces_multiple_files_config/ssh_config.txt
