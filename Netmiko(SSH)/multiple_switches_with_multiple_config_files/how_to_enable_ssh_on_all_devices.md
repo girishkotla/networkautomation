@@ -5,29 +5,53 @@
 !!! SW1:-
 
 config terminal
+
 !
+
 ho sw1
+
 !
+
 int vlan 1
+
 ip add 192.168.255.10 255.255.255.0
+
 no sh
+
 exit
+
 !
+
 username girish password cisco
+
 enable password cisco
+
 line vty 0 4
+
 login local
+
 transport input ssh
+
 exit
+
 !
+
 !
+
 !
+
 ip domain-name devnetpython.com
+
 crypto key generate rsa
+
 1024
+
 !
+
 !
+
 end
+
 write
 
 
@@ -36,23 +60,41 @@ write
 !!!SW2:-
 
 config terminal
+
 !
+
 ho sw2
+
 !
+
 int vlan 1
+
 ip add 192.168.255.20 255.255.255.0
+
 no sh
+
 exit
+
 !
+
 username girish password cisco
+
 enable password cisco
+
 line vty 0 4
+
 login local
+
 transport input ssh
+
 exit
+
 !
+
 !
+
 !
+
 ip domain-name devnetpython.com
 crypto key generate rsa
 1024
