@@ -1,59 +1,61 @@
 from netmiko import ConnectHandler
 
-sw2 = {
-	'device_type' = 'cisco_ios',
-	'ip' = '192.168.255.20',	##ENter the IP's of your target
-	'username' = 'girish',		##ssh username
-	'password' = 'cisco'		##ssh password
+s2 = {
+    'device_type': 'cisco_ios',
+    'ip': '192.168.255.20',
+    'username': 'girish',
+    'password': 'cisco',
 }
 
-sw3 = {
-	'device_type' = 'cisco_ios',
-	'ip' = '192.168.255.30',
-	'username' = 'girish',
-	'password' = 'cisco'
+s3 = {
+    'device_type': 'cisco_ios',
+    'ip': '192.168.255.30',
+    'username': 'girish',
+    'password': 'cisco',
 }
 
-sw4 = {
-	'device_type' = 'cisco_ios',
-	'ip' = '192.168.255.40',
-	'username' = 'girish',
-	'password' = 'cisco'
+s4 = {
+    'device_type': 'cisco_ios',
+    'ip': '192.168.255.40',
+    'username': 'girish',
+    'password': 'cisco',
 }
 
-sw4 = {
-	'device_type' = 'cisco_ios',
-	'ip' = '192.168.255.50',
-	'username' = 'girish',
-	'password' = 'cisco'
+s5 = {
+    'device_type': 'cisco_ios',
+    'ip': '192.168.255.50',
+    'username': 'girish',
+    'password': 'cisco',
 }
 
-sw4 = {
-	'device_type' = 'cisco_ios',
-	'ip' = '192.168.255.60',
-	'username' = 'girish',
-	'password' = 'cisco'
+s6 = {
+    'device_type': 'cisco_ios',
+    'ip': '192.168.255.60',
+    'username': 'girish',
+    'password': 'cisco',
 }
 
-with open("commands_core") as f:
-	lines = f.read().splitlines()
-print(lines)
+with open('commands_core') as f:
+    lines = f.read().splitlines()
+print (lines)
 
-dev_list = [sw2,sw3,sw4]
 
-for dev in dev_list:
-	net_connect = ConnectHandler(**dev)
+all_devices = [s4,s5,s6]
 
-	output = net_connect.send_config_set(lines)
-	print(output)
+for devices in all_devices:
+    net_connect = ConnectHandler(**devices)
+    output = net_connect.send_config_set(lines)
+    print (output)
 
-with open("Commans_access") as f:
-	lines = f.read().splitlines()
-print(lines)
 
-dev_list = [sw6,sw5,sw4,sw3,sw2]
+with open('commands_access') as f:
+    lines = f.read().splitlines()
+print (lines)
 
-for dev in dev_list:
-	net_connect = ConnectHandler(**dev)
-	output = net_connect.send_config_set(lines)
-	print(output)
+
+all_devices = [s6,s5,s4,s3,s2]
+
+for devices in all_devices:
+    net_connect = ConnectHandler(**devices)
+    output = net_connect.send_config_set(lines)
+    print (output)
