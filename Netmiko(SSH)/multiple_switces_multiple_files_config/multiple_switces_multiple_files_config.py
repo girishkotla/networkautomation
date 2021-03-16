@@ -2,9 +2,9 @@ from netmiko import ConnectHandler
 
 sw2 = {
 	'device_type' = 'cisco_ios',
-	'ip' = '192.168.255.20',
-	'username' = 'girish',
-	'password' = 'cisco'
+	'ip' = '192.168.255.20',	##ENter the IP's of your target
+	'username' = 'girish',		##ssh username
+	'password' = 'cisco'		##ssh password
 }
 
 sw3 = {
