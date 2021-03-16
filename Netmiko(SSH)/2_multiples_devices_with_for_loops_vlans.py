@@ -4,35 +4,35 @@ s2 = {
     'device_type': 'cisco_ios',
     'ip': '192.168.255.20',
     'username': 'girish',
-    'password': 'cisco',
+    'password': 'cisco'
 }
 
 s3 = {
     'device_type': 'cisco_ios',
     'ip': '192.168.255.30',
     'username': 'girish',
-    'password': 'cisco',
+    'password': 'cisco'
 }
 
 s4 = {
     'device_type': 'cisco_ios',
     'ip': '192.168.255.40',
     'username': 'girish',
-    'password': 'cisco',
+    'password': 'cisco'
 }
 
 s5 = {
     'device_type': 'cisco_ios',
     'ip': '192.168.255.50',
     'username': 'girish',
-    'password': 'cisco',
+    'password': 'cisco'
 }
 
 s6 = {
     'device_type': 'cisco_ios',
     'ip': '192.168.255.60',
     'username': 'girish',
-    'password': 'cisco',
+    'password': 'cisco'
 }
 
 
