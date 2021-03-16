@@ -26,3 +26,21 @@ switches_list ==> have the list of IP addresses of the switches to configure. Yo
 https://github.com/girishkotla/networkautomation/tree/main/Telnet/backup_configs_on_devices_using_telnet
 After running the code when you check on the directory you can find some backup files.
 
+
+**NETMIKO(SSH):**
+Network Design:
+![image](https://user-images.githubusercontent.com/45974876/111310493-271d4700-8683-11eb-8fd5-d3ef5766bfdf.png)
+
+0. How to enable SSH, refer: https://github.com/girishkotla/networkautomation/blob/main/Netmiko(SSH)/multiple_switces_multiple_files_config/ssh_config.txt
+
+Recommended suggestion: please check the SSH connection to the target, before automating.
+
+1. Create loopbacks on a router using Netmiko(SSH): https://github.com/girishkotla/networkautomation/blob/main/Netmiko(SSH)/1_create_loopbacks_on_router.py
+2. Configure multiples devices using for loops and create vlans on switche(s): https://github.com/girishkotla/networkautomation/blob/main/Netmiko(SSH)/2_multiples_devices_with_for_loops_vlans.py
+3. Configure multiple devices(switches in this example) with opening/using multiple files which has global config commands: https://github.com/girishkotla/networkautomation/tree/main/Netmiko(SSH)/multiple_switces_multiple_files_config
+
+For more examples refer: https://github.com/ktbyers/netmiko/tree/develop/examples
+For full detailed information of Netmiko, refer: https://github.com/ktbyers/netmiko
+
+
+**NAPALM:**
