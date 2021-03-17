@@ -37,5 +37,14 @@ ubuntu@ubuntu:~$sudo pip3 install -U pip setuptools
 **then run:** ubuntu@ubuntu:~$ sudo pip3 install -U netmiko     
 (That should work)
 
- 
+**IF YOU ARE USING python version 2.0:**
+**If you are using python 2.* then follow these commands to use NAPAML, NETMIKO:**
+
+sudo apt-get update
+sudo apt-get install python -y
+sudo apt-get install build-essential libssl-dev libffi-dev -y
+sudo apt-get install python-pip -y
+sudo pip install cryptography
+sudo pip install netmiko
+sudo pip install napalm
  
