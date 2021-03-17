@@ -34,6 +34,8 @@ ModuleNotFoundError: No module named 'netmiko'
 
 ubuntu@ubuntu:~$sudo pip3 install -U pip setuptools
 
-**then run:** ubuntu@ubuntu:~$ sudo pip3 install -U netmiko    ##That should work.
+**then run:** ubuntu@ubuntu:~$ sudo pip3 install -U netmiko     
+(That should work)
+
  
  
