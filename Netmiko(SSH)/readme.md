@@ -11,7 +11,7 @@ ModuleNotFoundError: No module named 'netmiko'
 
  You will get this error, because netmiko is the nodule that need to be inclused.
  
- Commands to run on your automation container: 
+ Commands to run on your automation container: **(if using python3)**
  
  1. ubuntu@ubuntu:~$ sudo apt-get update
  2. ubuntu@ubuntu:~$ sudo apt-get install python3-pip
