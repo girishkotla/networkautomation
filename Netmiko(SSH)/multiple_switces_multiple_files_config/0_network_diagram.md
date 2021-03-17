@@ -15,8 +15,24 @@ ModuleNotFoundError: No module named 'netmiko'
  
  1. ubuntu@ubuntu:~$ sudo apt-get update
  2. ubuntu@ubuntu:~$ sudo apt-get install python3-pip
- 3. ubuntu@ubuntu:~$ pip3 install -U netmiko
+ 3. ubuntu@ubuntu:~$ sudo pip3 install -U netmiko 
  
  NOTE: if you are using soem shared hosting labs, this might not work. I tried in free-cml. It failed.
+ 
+ **SOLUTION:**
+ 
+ If you get the below error, the you need to update the pip3 setup tools.
+ 
+ ERROR: 
+ ModuleNotFoundError: No module named 'setuptools_rust' 
+ (OR)
+ Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-fkt2utq1/cryptography/
+
+![image](https://user-images.githubusercontent.com/45974876/111459393-a290fe00-8740-11eb-9eb1-0415092e09b2.png)
+
+**Run this command:** 
+ubuntu@ubuntu:~$sudo pip3 install -U pip setuptools
+**then run:** ubuntu@ubuntu:~$ sudo pip3 install -U netmiko
+This will work this time
  
  
