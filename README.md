@@ -1,4 +1,5 @@
-# Network Automation using PYTHON.
+# Network Automation using PYTHON. 
+# NOTE: This code(s) are extracted from different resources like David Bombal courses, Github scripts, by googling, kybers (netmiko) etc., I built this repository for my reference. Simply like gathering all my collections. Ofcourse, some are my own scripts LOL
 
 **TELNET:**
 
