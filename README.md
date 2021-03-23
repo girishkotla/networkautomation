@@ -45,4 +45,8 @@ For more examples refer: https://github.com/ktbyers/netmiko/tree/develop/example
 For full detailed information of Netmiko, refer: https://github.com/ktbyers/netmiko
 
 
-**NAPALM:**
+**Iteration of NETMIKO (BASIC to ADVANCED):**
+Here you go: https://github.com/girishkotla/networkautomation/tree/main/Netmiko_iteration_basic_to_advanced
+You can find 6 files in this with. Start in order as noob and slowly, code will be improved by introducing many things...if you are properly following from the start..you will get know. I haven't gave much comments in the code this time. You can do add the comments....:-)
+
+
